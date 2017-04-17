@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: 'pixel';
-  src: url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.eot');
-  src: url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.woff2') format('woff2'),
-       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.woff') format('woff'),
-       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.ttf') format('truetype'),
-       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.svg#PixelEmulator') format('svg'),
-       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.eot?#iefix') format('embedded-opentype');
+  src: url('../res/fonts/PixelEmulator.eot');
+  src: url('../res/fonts/PixelEmulator.woff2') format('woff2'),
+       url('../res/fonts/PixelEmulator.woff') format('woff'),
+       url('../res/fonts/PixelEmulator.ttf') format('truetype'),
+       url('../res/fonts/PixelEmulator.svg#PixelEmulator') format('svg'),
+       url('../res/fonts/PixelEmulator.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
