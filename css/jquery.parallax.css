@@ -1,0 +1,32 @@
+
+.parallax-viewport {
+    margin : auto;
+    margin-top: 5%;
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+    width: 640px;
+    height: 480px;
+
+}
+.parallax-layer {
+    position: absolute;
+    image-rendering: pixelated;
+}
+
+@font-face {
+  font-family: 'pixel';
+  src: url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.eot');
+  src: url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.woff2') format('woff2'),
+       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.woff') format('woff'),
+       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.ttf') format('truetype'),
+       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.svg#PixelEmulator') format('svg'),
+       url('http://127.0.0.1:2015/404/res/fonts/PixelEmulator.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pxl-fnt {
+  font-family: 'pixel';
+   font-size: 24px;
+  color: LightGray;
+}
